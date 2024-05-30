@@ -1,0 +1,34 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/api.gog.com\/api\/products\/prices?ids=1440166342\u0026countryCode=MX"
+        }
+    },
+    "_embedded": {
+        "items": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/api.gog.com\/api\/products\/1440166342\/prices?countryCode=MX"
+                    }
+                },
+                "_embedded": {
+                    "prices": [
+                        {
+                            "currency": {
+                                "code": "USD"
+                            },
+                            "basePrice": "408 USD",
+                            "finalPrice": "102 USD",
+                            "promoId": "2024_gog_staff_picks",
+                            "bonusWalletFunds": "0 USD"
+                        }
+                    ],
+                    "product": {
+                        "id": 1440166342
+                    }
+                }
+            }
+        ]
+    }
+}
